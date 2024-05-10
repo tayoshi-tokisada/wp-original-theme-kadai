@@ -35,25 +35,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav flex-row ml-md-auto d-md-flex main_nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="news.html">
+                  <a class="nav-link" href="<?php echo home_url();?>/category/news">
                     NEWS
                     <p>ニュース</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="events.html">
+                  <a class="nav-link" href="<?php echo home_url();?>/category/event">
                     EVENT
                     <p>イベント</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="courses.html">
+                  <a class="nav-link" href="<?php echo home_url();?>/courses">
                     COURSES
                     <p>コース</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">
+                  <a class="nav-link" href="<?php echo home_url();?>/about">
                     ABOUT US
                     <p>侍大学について</p>
                   </a>
