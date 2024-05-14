@@ -1,4 +1,12 @@
           <div class="sidebar">
+            <div class="sidebar_search">
+              <div class="category">
+                <div class="section_title_container category_title">
+                  <h2>検索</h2>
+                  <?php get_search_form();?>
+                </div>
+              </div>
+            </div>
             <div class="category">
               <div class="section_title_container category_title">
                 <h2>CATEGORY</h2>

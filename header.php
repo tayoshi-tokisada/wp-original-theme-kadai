@@ -22,7 +22,7 @@
           <nav class="navbar navbar-expand-lg">
             <div class="logo_container">
               <div class="logo_text">
-                <a href="<?php echo get_template_directory_uri();?>/index.html">
+                <a href="<?php echo home_url();?>/">
                   <img src="<?php echo get_template_directory_uri();?>/images/logo_big.png" />
                   <span>Samurai University</span>
                 </a>
@@ -47,7 +47,13 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo home_url();?>/courses">
+                  <a class="nav-link" href="<?php echo home_url();?>/category/graduates">
+                    GRADUATES
+                    <p>卒業生の声</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?php echo home_url();?>/course">
                     COURSES
                     <p>コース</p>
                   </a>
